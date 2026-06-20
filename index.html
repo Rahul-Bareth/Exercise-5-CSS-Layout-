@@ -9,6 +9,7 @@
         * {
           margin: 0;
           padding: 0;
+          box-sizing: border-box;
         }
 
         header {
@@ -28,20 +29,19 @@
           text-align: center; 
         }
 
-        .box1 {
-          background-color: rgb(237, 186, 194);
+        .box {
           height: 70vh;
           width: 45%;        
           display: inline-block;
           margin: 0 12px;
         }
 
+        .box1 {
+          background-color: rgb(237, 186, 194);
+        }
+
         .box2 {
           background-color: rgb(56, 69, 211);
-          height: 70vh;
-          width: 45%;
-          display: inline-block;
-          margin: 0 12px;
         }
 
         main {
@@ -58,7 +58,7 @@
           text-align: center;
         }
 
-        .orange-box {
+        .floating-circle {
           height: 25px;
           width: 25px;
           background: yellow;
@@ -85,15 +85,15 @@
   <main>
 
     <div class="container">
-      <div class="box1"></div>
-      <div class="box2"></div>
+      <div class="box box1"></div>
+      <div class="box box2"></div>
     </div>
 
     <div class="text-box">
       <p>Welcome to Sigma Web Development Express</p>
     </div>
 
-    <div class="orange-box">
+    <div class="floating-circle">
     </div>
 
   </main>
